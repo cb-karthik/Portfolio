@@ -49,7 +49,7 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-fit "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-        <div className="pb-2 mt-11">
+        <div className="pb-2 mt-2">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Portfolio
           </p>
@@ -62,9 +62,9 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-110"
               />
-              <div className=" justfiy-center text-center text-white pt-2 ">
+              <div className=" justfiy-center text-center text-lime-200 font-bold pt-2 duration-300  hover:scale-110">
                 {appName}
               </div>
               <div className="flex items-center justfiy-center">
