@@ -53,7 +53,7 @@ const Navbar = () => {
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {/* Setting up for mobile version */}
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
 
       {nav && (
