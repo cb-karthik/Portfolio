@@ -1,46 +1,48 @@
 import React from "react";
 import linkedin from "../assets/linkedin.png";
 import netflix from "../assets/netflix.png";
-import newsapp from "../assets/newsapp.png";
 import quickmap from "../assets/quickmap.png";
-import todo from "../assets/todo.png";
+import amazon from "../assets/amazon.png"
+import naruto from "../assets/narutoverse.png"
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: linkedin,
+      src: naruto, //images name
+      demo: "https://naruto-verse.vercel.app/",
+      code: "https://github.com/cb-karthik/Narutoverse",
+      appName: "Naruto Verse",
+    },{
+      id: 2,
+      src: amazon, //images name
+      demo: "https://amznclone.vercel.app/",
+      code: "https://github.com/cb-karthik/Amazon",
+      appName: "Amazon-Clone",
+    },
+    {
+      id: 3,
+      src: linkedin, //images name
       demo: "https://linkedin-clone-ract.netlify.app/",
       code: "https://github.com/cb-karthik/Linkedin-clone",
       appName: "Linkedin-Clone",
     },
     {
-      id: 2,
+      id: 4,
       src: netflix,
       demo: "https://nc-nine.vercel.app/",
       code: "https://github.com/cb-karthik/Netflix-Clone",
       appName: "Netflix-Clone",
     },
+   
     {
-      id: 3,
-      src: newsapp,
-      demo: "https://github.com/cb-karthik/FingerTip-NewsApp/",
-      code: "https://github.com/cb-karthik/FingerTip-NewsApp",
-      appName: "FingerTip-News",
-    },
-    {
-      id: 4,
+      id: 5,
       src: quickmap,
       demo: "https://quick-route-google-map-clone.vercel.app/",
       code: "https://github.com/cb-karthik/Quick-Route-Google-Map-Clone",
       appName: "QuickRoute",
-    },
-    {
-      id: 5,
-      src: todo,
-      demo: "https://todo-dun-seven.vercel.app/",
-      code: "https://github.com/cb-karthik/TODO",
-      appName: "ToDo",
-    },
+    }
+   
   ];
 
   return (
